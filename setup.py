@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="debugegg",
-    version="1.0.6",
+    version="1.1.0",
     packages=find_packages(),
     description="A simple python package for debugging.",
     author="Egglord",
