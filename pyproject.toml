@@ -3,12 +3,16 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "variablesplus"
-version = "3.1.0"
-description = "A Python package for handling variables, also my first library. I hope you enjoy! You can create, clear, write to, delete and read variables. Safely."
+name = "debug_egg"
+version = "1.0.0"
+description = "A Python package for debugging."
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [
   { name="Egglord" }
 ]
 license = { text = "MIT" }
+dependencies = [
+    "colorama>=0.4.7"
+    "inspect"
+]
