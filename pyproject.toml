@@ -14,5 +14,4 @@ authors = [
 license = { text = "MIT" }
 dependencies = [
     "colorama>=0.4.7"
-    "inspect"
 ]
