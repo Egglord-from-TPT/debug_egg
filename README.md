@@ -10,6 +10,6 @@ debug_egg.degg("YOUR_TEXT", "YOUR_COLOR") # Prints the line it was called on, wi
 
 # !NB!
 
-Use: pip install degg
+Use: pip install debug-egg
 
 But, to import it: import debug_egg # as degg
